@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title> WEB PAGE </title>
+            <script src = "script.js"> </script>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+ <h1> my website</h1>
+ <style>
+     .container,.header,.nav,.middle,.left,.right,.footer {
+        border:2px solid red;
+        padding: 20px;
+     }
+     .middle{
+         height:80px;
+     }
+     .left{
+         float:left;
+     }
+     .right{
+         float:right;
+     }
+ </style>
+ <main class="container" id="container"  >
+ <header class ="header" id="header">header</header> 
+ <br>
+<nav class="nav">navigation</nav>
+<br>
+<section class ="middle" id ="middle">
+    middle <br>
+    <aside class="left" > left </aside>
+    <aside class = "right"> right </aside>
+</section>
+    <br>
+    <br>
+    <footer class ="footer" id="footer"> footer</footer>
+
+ </main> 
+
+        </body>
+        </html>
